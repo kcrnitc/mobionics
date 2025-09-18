@@ -28,6 +28,10 @@
         max-width: 98vw;
         overflow-wrap: break-word;
         word-break: break-word;
+        white-space: normal !important;
+        width: 100% !important;
+        border-right: none !important;
+        animation: none !important;
     }
     .cta-btn {
         padding: 0.6rem 1.2rem;
