@@ -95,8 +95,26 @@ header {
     background: #23263a;
     color: #fff;
     padding: 1.5rem 0 1rem 0;
-    text-align: center;
     box-shadow: 0 2px 8px rgba(30,30,60,0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0 auto 0.5rem auto;
+}
+.logo-img {
+    height: 48px;
+    width: 48px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #fff1;
+    box-shadow: 0 2px 8px #23263a44;
 }
 .logo {
     font-family: 'Orbitron', 'Roboto', sans-serif;
